@@ -1,0 +1,222 @@
+@import url(./reset.css);
+
+body{
+    width: 1440px;
+    background-color: black;
+}
+
+
+.banner{
+    width: 100%;
+    height: 605px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    background-image: url(/assets/images/banner.png);
+}
+.banner-content{
+    width: 510px;
+    height: 393px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 268px;
+    height: 268px;
+}
+h1{
+    width: 434px;
+    height: 47px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;  
+}
+.banner p{
+    width: 510px;
+    height: 46px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align:left;
+    color: #FFFFFF;
+}
+button{
+    width: 326px;
+    height: 57px;
+    border: 2px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid;
+    border-color: #3BA1CD;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    color: #3BA1CD;
+}
+
+/* MAIN */
+/*course-content*/
+main{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+#course-content{
+    width: 792px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+h2{
+    width: 477px;
+    height: 38px;
+    color: #33A8DB;
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+#course-content p{
+    color: white;
+    width: 792px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+}
+.modules-list{
+    width: 535px;
+    height: 201px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+   
+}
+.module{
+    text-align: center;
+
+    width: 100%;
+    height: 51px;
+ 
+    border-radius: 57px;
+
+    background: #252525;
+    border: 2px solid #33A8DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+span{
+    color: #33A8DB;
+}
+
+/*transform-world*/
+#transform-world{
+    width: 100%;
+    height: 363px;
+    background-image: url(/assets/images/woman-code.png);
+    object-fit: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#transform-world p{
+    width: 244px;
+    height: 141px;
+
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+
+    color: #FFFFFF;
+
+    padding-left: 198px;
+    padding-top: 111px;
+}
+/*professional-challenges*/
+#professional-challenges{
+    width: 100%;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#professional-challenges h2{
+    width: 746px;
+    height: 76px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+#professional-challenges img{
+    width: 659px;
+    height: 429px;
+
+}
+#professional-challenges p{
+    width: 792px;
+    height: 76px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 310px;
+    height: 44px;
+
+}
+footer p{
+    width: 259px;
+    height: 19px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
